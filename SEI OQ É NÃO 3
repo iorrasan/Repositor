@@ -1,0 +1,21 @@
+
+
+
+function setup() {
+  createCanvas(900, 900);
+  background("purple")
+  cor = color(random(0,15), 0, 250);
+}
+
+function draw() {
+  fill(cor);
+  circle(100, 90, 100)
+  fill("pink")
+  stroke("white")
+  
+  if (mouseIsPressed) {
+  rect(mouseX, mouseY, 15, 15);
+  }
+
+  
+}
